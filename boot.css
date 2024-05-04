@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-position: center;
+    background-size: cover;
+    li{ list-style: none;}
+    a{text-decoration: none;}
+    
+    
+    
+}
+img{
+    max-width:100%;
+}
+.navbar li{
+    padding-right: 20px;
+}
+.navbar ul a{
+    color: white;
+}
+.z1{
+    display: none;
+}
+.fa-bars{
+    color: white;
+    font-size: 15px;
+    opacity: 0.8;
+}
+.navbar img{
+    width:13px;
+}
+.vision{
+    background-image: url("Images/home/hero_apple_vision_pro__e8407ehady6i_small.jpg");
+    display: block;
+    height:750px;
+    padding-top:530px
+}
+.section2d{
+   
+    margin-left: 30px;
+}
+.iphone{
+    background-image: url("Images/home/hero_iphone15pro__i70z9oz3hj2i_small_2x.jpg");
+    display: block;
+    height:350px;
+    padding-top:30px
+}
+.section3c{
+   
+    margin-left: 40px;
+}
+.iphonepro{
+    background-image: url("Images/home/hero_iphone15_announce__uuemlcwczn6u_small.jpg");
+    display: block;
+    height:350px;
+    padding-top:30px;
+}
+.section4c{
+   
+    margin-left: 40px;
+}
+.watch1{
+height: 380px;
+background-image: url(Images/home/promo_apple_watch_series_9_order__b3u85rm9zf6u_small.jpg);
+flex-grow: 1;
+}
+
+.watch2{
+    height: 380px;
+    background-image: url(Images/home/promo_apple_watch_ultra2_order__dyxqj5ia98om_small.jpg);
+    flex-grow: 1;
+}
+
+.macbook1{
+    height: 480px;
+    background-image: url(Images/home/promo_mbp__ek7p477bkp6q_large_2x.jpg);
+    font-size: 20px;
+}
+.macbook1c{
+    margin-left: 50px;
+   
+}
+.macbook2{
+    height: 380px;
+    background-image: url(Images/home/promo__sw58lbodkmqq_large.jpg);
+}
+.macbook2c a{
+    color: white;
+}
+.card1{
+    height:380px;
+    background-image: url(Images/home/tile__cauwwcyyn9hy_small.jpg);
+}
+.card2{
+    height: 380px;
+    background-image: url(Images/home/promo_iphone_tradein__bugw15ka691e_small.jpg);
+}
+.trailer1{
+    height: 525px;
+    background-image: url(Images/home/980x551\ \(3\).jpg);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 40px;
+    margin-bottom: 35px;
+}
+.trailer1 img{
+    width:110px;
+}
+.trailer1a{
+    width: 155px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+}
+.footer{
+    background-color:#F5F5F7 ;
+}
+.lead{
+    font-size: 13px;
+}
+.list a, .end1b a{
+color: black;
+opacity: .7;
+}
+.end1b ul{
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 144px;
+
+}
+/*.end1b li{
+    border-right: 1.5px solid #434344;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.end1b li:last-child{
+    border-right: none;
+}*/
+.row img{
+    width: 150px;
+}
+.lead, li{
+    font-size: 13px;
+    opacity: .75;
+}
+.end div{
+    font-size: 13px;
+}
+.paragraph1 a{
+    color:#434344;
+    text-decoration: underline;
+}
+.ft-shorts a{
+    text-decoration: none;
+}
+.ft-shorts a:hover{
+    text-decoration: underline;
+}
+/*.ft-shorts{
+    border-right: .1px solid #434344;
+}*/
+.column-footers ul{
+    display: block;
+    border-bottom: 1px solid rgba(0,0, 0,0.3);
+    align-items: start;
+    padding:0;
+}
+.column-footers ul a {
+    display: none;
+}
+.column-footers bold{
+    font-size: 14px;
+    font-weight: 500;
+}
+.unitedstates1{
+    font-size: 12px;
+    
+}
+.United{
+    margin-left:250px;
+}
+.end{
+    font-size: 7px;
+}
+.end1 a{
+    text-decoration: underline;
+    color: rgb(43, 75, 235);
+}
+.footer-shorts{
+    margin-bottom: 10px;
+}
+
+@media(min-width:768px){
+    .navbar ul a{
+        opacity: 0.9;
+        color: white;
+    }
+    p{font-size: 14px;}
+    a{font-size: 14px;}
+    li{font-size: 14px;}
+    div{font-size: 25px;}
+    .end div{font-size: 14px;}
+    .fa-bars{display: none;}
+    .z1{display: block;}
+    .iphone , .iphonepro{
+        height: 580px;
+        font-size: 74px;
+    }
+    .column-footers ul a {
+        display: block;
+    }
+   
+    .column-footers ul{
+        border-bottom: none;
+    }
+    .trailer1c img {
+        display: none;
+    }
+}
